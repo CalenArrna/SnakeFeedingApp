@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SnakeFeedingApp</string>
+    <string name="welcome_message">Welcome To My Boa Feeder!</string>
+    <string name="label_input">Please, enter your boa\'s weight in gram!</string>
+    <string name="button_submit_weight">Calculate</string>
+    <string name="label_result">Your ideal prey size: </string>
+    <string name="result_default">Will be here!</string>
+    <string name="weight_hint">Enter boa weight in gram!</string>
+    <string name="calc_button_text1">Calculate</string>
+    <string name="calc_button_text2">Re-Calculate</string>
+    <string name="recalculate">ReCalculate</string>
+</resources>

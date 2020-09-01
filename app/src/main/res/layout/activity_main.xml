@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal|fill"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/layout_padding"
+    android:paddingLeft="@dimen/layout_padding"
+    android:paddingEnd="@dimen/layout_padding"
+    android:paddingRight="@dimen/layout_padding"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|fill_horizontal"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/snake_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/weight_hint"
+        android:textAlignment="center"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/prey_size_text"
+        android:layout_width="383dp"
+        android:layout_height="45dp"
+        android:layout_gravity="fill_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/calc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/calc_button_text1"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/recalc_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recalculate"
+        android:visibility="gone" />
+
+</LinearLayout>
